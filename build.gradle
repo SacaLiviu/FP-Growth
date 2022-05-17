@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'org.kiv'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'nz.ac.waikato.cms.weka:weka-stable:3.8.6'
+}
